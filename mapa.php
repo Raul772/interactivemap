@@ -10,6 +10,7 @@
 
 </head>
 <body>
+    
     <?php include("mapa.svg"); ?>
 
     <div info class="info">

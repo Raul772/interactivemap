@@ -9,7 +9,7 @@ export default function () {
         3109402: { nome: "Buritizeiro", cor: "#83B0F7", desc: "Este polo atende 6 cidades." },
         3112307: { nome: "Capelinha", cor: "#83B0F7", desc: "Este polo atende 14 cidades." },
         3113701: { nome: "Carlos Chagas", cor: "#83B0F7", desc: "Este polo atende 4 cidades." },
-        3120300: { nome: "Cristalia", cor: "#83B0F7", desc: "Este polo atende 7 cidades." },
+        3120300: { nome: "Cristália", cor: "#83B0F7", desc: "Este polo atende 7 cidades." },
         3121605: { nome: "Diamantina", cor: "#83B0F7", desc: "Este polo atende 96 cidades." },
         3122207: { nome: "Divinolândia de Minas", cor: "#83B0F7", desc: "Este polo atende 8 cidades." },
         3126703: { nome: "Francisco Sá", cor: "#83B0F7", desc: "Este polo atende 11 cidades." },

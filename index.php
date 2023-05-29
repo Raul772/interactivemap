@@ -15,10 +15,6 @@
     
     <span legenda></span>
 
-
-
-    
-
     <!-- <script src="mapa.js" type="module"></script> -->
     <script src="legenda.js" type="module"></script>
 </body>

@@ -15,7 +15,7 @@ import polos from "./mapadata.js"
     doc.body.addEventListener("mousemove", (e) => {
         info_modal.style.top = `${e.pageY}px`;
         info_modal.style.left = `${e.pageX}px`;
-    })
+    });
 
     const showInfo = (municipio, desc) => {
         doc.body.style.cursor = "none";

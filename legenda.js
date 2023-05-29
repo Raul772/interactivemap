@@ -29,6 +29,7 @@ mapaIframe.onload = () => {
                 let id = e.target.getAttribute("cod-municipio");
                 document.querySelector('#mun_' + id).style.fill = "#2F95F5";
             });
+            
             p.addEventListener("mouseout", (e) => {
                 let id = e.target.getAttribute("cod-municipio");
                 document.querySelector('#mun_' + id).style.fill = municipios[id].cor;
