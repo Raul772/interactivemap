@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+a{
+    font-size: 2rem;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+section{
+    margin: auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    padding: 2rem 0px;
+    background-color: whitesmoke;
+}
+
+.text-info{
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+.title-description{
+    margin: 20px 0px;
+}
+.title-description h2{
+    padding: 10px 0px;
+}
+.cursos{
+    margin: 10px 0px;
+}
+.cursos h3{
+    padding: 5px 0px;
+}
+ul{
+    list-style: none;
+}
+
+li{
+    padding: 2px 0px;
+}
+.images{
+    margin-top: 20px;
+}
+.images img {
+    width: 100%;
+    display: block;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+    section{
+        width: 100%;
+        padding: 4rem;
+    }
+}

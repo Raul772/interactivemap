@@ -8,14 +8,20 @@
     <title>Mapa</title>
     <link rel="stylesheet" href="style.css">
 
+    <style>
+        *:not(div){
+            transition: all .1s ease-in-out;
+        }
+    </style>
+
 </head>
 <body>
-    
+
     <?php include("mapa.svg"); ?>
 
     <div info class="info">
         <h1>Município</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, laboriosam.</p>
+        <p>Lorem ipsum</p>
     </div>
     
     <script src="mapa.js" type="module"></script>

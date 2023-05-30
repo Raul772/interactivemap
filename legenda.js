@@ -35,6 +35,12 @@ mapaIframe.onload = () => {
                 document.querySelector('#mun_' + id).style.fill = municipios[id].cor;
             });
 
+            p.addEventListener("click", (e) => {
+
+                mapaIframe.setAttribute("src", "mapDetails.php");
+
+            });
+
         });
     })(mapaIframe.contentDocument, mapaIframe.contentWindow);
 
