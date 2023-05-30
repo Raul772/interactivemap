@@ -49,6 +49,10 @@ import polos from "./mapadata.js"
             hideInfo();
         });
 
+        doc.querySelector(`#mun_${cod_municipio}`).addEventListener('click', (e) => {
+            window.location.href = "./mapDetails.php";
+        });
+
     }
 }
 )(window, document);
