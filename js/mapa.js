@@ -50,7 +50,7 @@ import polos from "./mapadata.js"
         });
 
         doc.querySelector(`#mun_${cod_municipio}`).addEventListener('click', (e) => {
-            window.location.href = "./mapDetails.php";
+            doc.querySelector("[details]").style.transform = "translateX(0%)";
         });
 
     }

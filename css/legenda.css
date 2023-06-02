@@ -1,0 +1,30 @@
+span[legenda]{
+	font-family: "Open Sans";
+	background: #232323;
+	color: white;
+	max-width: 400px;
+	max-height: 100vh;
+	padding: 20px;
+	overflow-y: scroll;
+}
+span[legenda] > ul {
+	list-style: none;
+}
+span[legenda] > ul > li {
+	margin: 2px 0px;
+	cursor: pointer;
+}
+span[legendda] > ul > li:hover{
+	color: deepskyblue;
+}
+
+/* Scrollbar */
+
+span[legenda]::-webkit-scrollbar{
+    background: #232323;
+    width: 10px;
+}
+span[legenda]::-webkit-scrollbar-thumb{
+    background: #505050;
+    border-radius: 5px;
+}

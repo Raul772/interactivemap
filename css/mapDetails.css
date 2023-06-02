@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-main{
-    width: 100vw;
-    height: 100vh;
+section[details]{
+    transition: all .3s ease-in-out;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: translateX(-100%);
+    width: 100%;
+    max-height: 100vh;
     background-color: whitesmoke;
+    overflow-y: scroll;
+}
+section[details]::-webkit-scrollbar{
+    display: none;
 }
 
 a{
@@ -20,9 +23,10 @@ a{
     color: black;
 }
 
-section{
+section[details] section{
     margin: auto;
     width: 70%;
+    min-height: 100vh;
     display: flex;
     justify-content: space-between;
     align-items: start;
@@ -69,9 +73,6 @@ li{
     width: 100%;
     display: block;
 }
-
-
-
 
 @media screen and (max-width: 480px) {
     section{

@@ -5,7 +5,7 @@
    xml:space="preserve"
    width="258mm"
    height="212mm"
-   style="max-width:100%;fill-rule:evenodd;image-rendering:optimizequality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
+   style="max-width:100%;fill-rule:evenodd;image-rendering:auto;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
    viewBox="0 0 258000 212000"
    id="svg2"
    sodipodi:version="0.32"
